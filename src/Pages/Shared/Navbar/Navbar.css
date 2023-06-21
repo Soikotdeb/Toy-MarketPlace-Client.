@@ -1,0 +1,35 @@
+/* Mobile Responsive CSS */
+@media (max-width: 640px) {
+    /* Navbar */
+    .navbar {
+      flex-direction: column;
+    }
+  
+    .navbar-start {
+      justify-content: center;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+  
+    .navbar-start img {
+      margin-right: 0.5rem;
+    }
+  
+    .navbar-center {
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 1rem;
+    }
+  
+    .navbar-center a {
+      display: block;
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+  }
+
+.navbar {
+  background-color: #4a5568; 
+  padding: 20px;
+ 
+}

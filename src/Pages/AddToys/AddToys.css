@@ -1,0 +1,44 @@
+
+  
+
+    .toy-form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #f8f8f8;
+      border: 1px solid #ddd;
+      padding: 20px;
+      width: 800px; /* Adjust the width as needed */
+      margin: 0 auto; /* Center the form horizontally */
+      
+    }
+    
+    .form-group {
+      margin-bottom: 20px; /* Adjust the gap between form groups */
+     
+    }
+    
+    label {
+      margin-bottom: 10px; /* Adjust the gap between label and input field */
+    }
+    
+    .input-field {
+      width: 500px; /* Set a fixed width for the input fields */
+      padding: 5px;
+      border: 1px solid #ccc;
+      background-color: #fff; /* Set input background color to white */
+      margin-bottom: 20px;
+    
+    }
+    
+    button {
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      border-radius: 10px;
+    }
+    
+  
